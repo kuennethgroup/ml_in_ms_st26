@@ -3044,6 +3044,7 @@ dependencies = [
     { name = "pandas" },
     { name = "psmiles" },
     { name = "pydot" },
+    { name = "rdkit" },
     { name = "sdv", version = "1.32.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
     { name = "sdv", version = "1.36.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14'" },
     { name = "seaborn" },
@@ -3068,6 +3069,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "psmiles", git = "https://github.com/kuennethgroup/psmiles" },
     { name = "pydot", specifier = ">=4.0.1" },
+    { name = "rdkit" },
     { name = "sdv", specifier = ">=1.27.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "streamlit", specifier = ">=1.50.0" },
@@ -4451,7 +4453,7 @@ wheels = [
 [[package]]
 name = "psmiles"
 version = "0.6.11"
-source = { git = "https://github.com/kuennethgroup/psmiles#b5b8d3d9e7453feacb0f65aa97266425e2cb699e" }
+source = { git = "https://github.com/kuennethgroup/psmiles#33957d7cbb8395b3f8dfe54fbbbe73b070bc0e53" }
 dependencies = [
     { name = "canonicalize-psmiles" },
     { name = "numpy" },
